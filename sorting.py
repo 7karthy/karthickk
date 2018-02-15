@@ -1,0 +1,7 @@
+s=input()
+s=s.split()
+s.sort()
+print(s)
+(s.sort(reverse=True))
+print ( s)
+print(len(s))
