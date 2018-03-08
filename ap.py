@@ -6,4 +6,4 @@ n=n+1
 for i in range(a,n):
   sum=sum+i
   i=sum+d
-  print(sum)
+ print(sum)
