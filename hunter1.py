@@ -1,14 +1,19 @@
-n=input('enter')
-a=""
-b=""
-for i in range(len(n)):
+n=int(input('enter'))
+a=[]
+b=[]
+z=" "
+for i in range(n):
   c=input('enter the value')
-  a=a+c[i]
+  a.append(c)
 for i in a:
   count=a.count(i)
-  print(count)
+  #print(count)
   if count>=2:
-    b=b+c[i]
-  print(b)
-if b== " ":
-    print('unique')
+    b.append(i)
+if b==[]:
+  print('unique')
+else:
+  b.sort()
+  s=set(b)
+  z=' '.join(s)
+  print(z)
