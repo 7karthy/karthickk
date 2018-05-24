@@ -1,3 +1,3 @@
 a=input("enter a alphabet")
-a.lower()
+a=a.lower()
 print(ord(a)-96)
