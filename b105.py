@@ -1,3 +1,3 @@
-a=input("enter a alphabet")
-a=a.lower()
-print(ord(a)-96)
+b=int(input("enter a number"))
+b=b+64
+print(chr(b))
